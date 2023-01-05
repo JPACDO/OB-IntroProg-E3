@@ -7,6 +7,7 @@ public class AT{
         System.out.println(resultado);
 
         Coche miCoche = new Coche();
+        miCoche.añadirPuerta();
         System.out.println(miCoche.puertas);
 
     }
@@ -20,7 +21,7 @@ class Coche{
 
     public int puertas = 4;
 
-    public void dd(){
+    public void añadirPuerta(){
         this.puertas++;
     }
 
